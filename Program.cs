@@ -17,3 +17,5 @@ for (int a = 0; a < stringArray.Length; a++)
         counter++;   
     }
 }
+Console.Write($"[{String.Join(" ", stringArray)}] -> ");
+Console.Write($"[{String.Join(" ", newArray)}]");
